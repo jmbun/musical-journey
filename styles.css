@@ -1,1 +1,85 @@
 /* Write your CSS here! */
+body {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+	width: 100%;
+	max-width: 1350px;
+	margin: 0 auto;
+	background-color: rgb(29, 106, 153);
+}
+
+header,
+main {
+    background-color: lightblue;
+}
+
+#mainHeading {
+    background-color: rgb(59, 178, 207);
+    font-family: "Lucida Console", "Courier New", monospace;
+	text-align: center;
+    padding: 5px
+}
+
+main h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: rgb(59, 178, 207);
+    padding: 7px
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+img {
+    width: 55vw; min-width: 330px;
+}
+
+.songNamez {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#songNamez {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.songNameContainer * {
+    padding: 5px 10px;
+}
+
+footer {
+    display: table;
+    margin: 0 auto;
+    padding: 7px
+}
+
+#soundcloud {
+    width: 32px;
+    height: 32px;
+    display: table;
+    margin: 0 auto;
+}
+
+#songName {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    background-color: yellowgreen;
+    padding: 5px;
+}
+
+audio {
+    padding: 5px 10px;
+    align-content: center;
+    width: 50%;
+}
+
+.funParagraph {
+    background-color: green;
+    text-align: center;
+}
