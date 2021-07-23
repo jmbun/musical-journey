@@ -17,15 +17,15 @@ main {
 }
 
 #mainHeading {
-    background-color: red;
+    background-color: rgb(59, 178, 207);
     font-family: "Lucida Console", "Courier New", monospace;
 	text-align: center;
     padding: 5px
 }
 
 main h2 {
-    font-family: "Lucida Console", "Courier New", monospace;
     background-color: rgb(59, 178, 207);
+    font-family: "Lucida Console", "Courier New", monospace;
     padding: 7px
 }
 
